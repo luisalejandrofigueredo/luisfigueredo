@@ -1,0 +1,48 @@
+<div>
+    <a href="https://luisalejandrofigueredoen.web.app/"><img width="64px" src="assets/eeuu.png"></a><a
+        href="https://luisalejandrofigueredoca-acbed.web.app/"><img width="78px" src="assets/esp.png"></a>
+</div>
+<mat-tab-group [backgroundColor]="'accent'" mat-stretch-tabs="false" mat-align-tabs="center">
+    <mat-tab i18n-label label="Presentación">
+        <div class="container">
+            <div class="column">
+                <img class="logo" src="assets/yo.jpg">
+                <h1 style="margin: auto;">Luis Alejandro Figueredo</h1>
+            </div>
+            <h2 style="margin: auto;" i18n>Analista en Sistemas</h2>
+            <h2 style="margin: auto;" i18n>Desarrollador full stack</h2>
+            <h2 style="margin: auto;" i18n>Configure su navegador para usar color del sistema para ver en modo Dark o
+                Light.</h2>
+            <div class="child">
+                <img style="margin: auto;" src="assets/fotoyo.jpg" alt="" width="50%">
+            </div>
+        </div>
+        <div class="rowPhone">
+            <div class="rowContacts">
+                <p style="padding-top: 10px;" i18n>Celular:(+598) 98504391</p>
+            </div>
+            <span style="padding-left:20px;"></span>
+            <div class="rowContacts">
+                <p>Email:luisalejandrofigueredo&#64;gmail.com</p>
+                <a style="padding-left: 10px;" href="mailto:luisalejandrofigueredo@gmail.com" i18n="email">Enviar
+                    email</a>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab i18n-label label="Títulos">
+        <swiper-container  slides-per-view="1"  navigation="true" pagination="true" scrollbar="true" >
+            <swiper-slide><span class="rowTitulo"><img class="imageTitulo" width="25%" src="assets/programador.jpg" /></span></swiper-slide>
+            <swiper-slide><span class="rowTitulo"><img class="imageTitulo" width="25%" src="assets/analista programdor.jpg" /></span></swiper-slide>
+            <swiper-slide><span class="rowTitulo"><img class="imageTitulo" width="25%" src="assets/analista en sistemas.jpg" /></span></swiper-slide>
+        </swiper-container>
+    </mat-tab>
+    <mat-tab i18n-label label="Conocimientos">
+        <app-conocimientos></app-conocimientos>
+    </mat-tab>
+    <mat-tab i18n-label label="Experiencia">
+        <app-experiencia></app-experiencia>
+    </mat-tab>
+    <mat-tab label="Library NG-GD">
+        <app-ng-gd></app-ng-gd>
+    </mat-tab>
+</mat-tab-group>

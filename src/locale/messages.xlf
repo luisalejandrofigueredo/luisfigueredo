@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-UY" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6057099063626075495" datatype="html">
+        <source> Gobierno </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6195907032992945694" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Division<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Cargo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="967532327913820982" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Armada (Estado mayor de informática naval)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2474807590036157488" datatype="html">
+        <source>Programador</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+        <note priority="1" from="description">programador</note>
+      </trans-unit>
+      <trans-unit id="5443000012450008084" datatype="html">
+        <source> Diarios </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3831189608797957141" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Empresa<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Cargo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <note priority="1" from="description">empresa</note>
+      </trans-unit>
+      <trans-unit id="9150014301684643670" datatype="html">
+        <source>Mantenimiento</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+        <note priority="1" from="description">mantenimiento</note>
+      </trans-unit>
+      <trans-unit id="1175701951686857778" datatype="html">
+        <source>Diseñador gráfico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experiencia/experiencia.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+        <note priority="1" from="description">diseñador</note>
+      </trans-unit>
+      <trans-unit id="5209749288264574775" datatype="html">
+        <source>Presentación</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3325042808387888859" datatype="html">
+        <source>Analista en Sistemas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6271959056690499752" datatype="html">
+        <source>Desarrollador full stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4535141963077289761" datatype="html">
+        <source>Configure su navegador para usar color del sistema para ver en modo Dark o Light.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1711943219792811101" datatype="html">
+        <source>Celular:(+598) 98504391</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5223814210797703732" datatype="html">
+        <source>Enviar email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <note priority="1" from="description">email</note>
+      </trans-unit>
+      <trans-unit id="7411546138285458975" datatype="html">
+        <source>Títulos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7923676998657374698" datatype="html">
+        <source>Conocimientos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3839418929735297411" datatype="html">
+        <source>Experiencia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6760565027651221260" datatype="html">
+        <source>Mi aporte a GNU y Angular la librería NG-GD</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ng-gd/ng-gd.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
