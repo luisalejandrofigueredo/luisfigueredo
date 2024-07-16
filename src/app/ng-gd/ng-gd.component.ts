@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild, inject } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, OnInit, ViewChild, inject } from '@angular/core';
 import { NgGdService, Point, LineObject, Candlestick } from "ng-gd";
 @Component({
   selector: 'app-ng-gd',
@@ -8,14 +8,16 @@ import { NgGdService, Point, LineObject, Candlestick } from "ng-gd";
   templateUrl: './ng-gd.component.html',
   styleUrl: './ng-gd.component.scss'
 })
-export class NgGdComponent implements OnInit {
+export class NgGdComponent implements OnInit,AfterViewInit{
   gd = inject(NgGdService);
   @ViewChild('canvas', { static: true })
   canvas!: ElementRef<HTMLCanvasElement>;
   private ctx!: CanvasRenderingContext2D;
   move = false;
-  ngOnInit(): void {
+  ngAfterViewInit(): void {
     this.ctx = this.canvas.nativeElement.getContext('2d')!;
+  }
+  ngOnInit(): void {
     this.gd.start(800, 600);
     this.gd.setDarkMode();
     const candleStick: Candlestick[] = [
@@ -88,7 +90,7 @@ export class NgGdComponent implements OnInit {
       4,
       ['0', '100', '200', '300','400'],
       12,
-      0,
+      0,  
       10,
       adjustLabelY
     );
